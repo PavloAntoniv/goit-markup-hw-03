@@ -212,29 +212,31 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  padding-bottom: 10px;
+}
+.title-paragraf {
   padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.19;
   color: var(--paragraf-color);
-  padding-top: 10px;
 }
 
 /* footer  */
 
 .footer {
   background-color: var(--background-title-color);
-  width: 100%;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
-  display: block;
+  padding: 60px;
 }
 .adres {
   font-style: normal;
   color: var(--white-color);
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 .studio-logo-footer {
   font-size: 26px;
@@ -245,7 +247,14 @@ ul {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.mail-contakt-footer {
+  display: block;
+  margin-bottom: 9px;
+}
+.phone-contact-footer {
+  display: block;
+  margin: 0;
+}
 /* portfolio  */
 
 /* projects  */
@@ -253,6 +262,10 @@ ul {
 /* .projects-title  */
 
 .button-all {
+  min-height: 38px;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
   padding: 6px 22px;
   color: var(--primary-text-color);
   background: var(--background-teams-color);
@@ -276,7 +289,6 @@ ul {
 
 .projects-box {
   width: 370px;
-  height: 404px;
   border: 1px solid var(--border-proects);
   background-color: var(--white-color);
 }
@@ -289,6 +301,7 @@ ul {
   text-decoration: none;
   margin-right: 93px;
   color: var(--background-color);
+  display: block;
 }
 
 /* HW3  */
@@ -308,6 +321,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-right: 25px;
 }
 
 .header-menu-cont {
@@ -358,7 +372,6 @@ ul {
 
 .team-section {
   background-color: var(--background-teams-color);
-  display: flex;
 }
 
 .team-item-box {
@@ -369,32 +382,28 @@ ul {
 .team-item {
   box-sizing: border-box;
   width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1632px;
+  background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.logo-footer {
-  padding-top: 60px;
-}
+/* .logo-footer { */
+/* padding-top: 60px;  */
+/* } */
 
 .contacts-footer {
-  gap: 9px;
-  padding-top: 20px;
-}
+  display: block;
 
-.button-style {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
+  /* padding-top: 20px;  */
 }
 
 .button-style-container {
-  margin-top: 94px;
-  margin-bottom: 34px;
+  display: flex;
+  margin-bottom: 50px;
+
+  justify-content: center;
+  gap: 8px;
   padding: 0 auto;
 }
 
@@ -410,8 +419,6 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding-top: 20px;
-  padding-inline-start: 24px;
 }
 
 .projects-paragraf {
@@ -419,5 +426,9 @@ ul {
   line-height: 1.9;
 
   color: var(--paragraf-color);
-  padding-inline-start: 24px;
+}
+
+.title-paragraph-projects {
+  padding: 20px 24px;
+  text-align: justify;
 }
