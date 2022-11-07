@@ -50,13 +50,16 @@ p {
   margin: 0;
 }
 
+header {
+  padding: 24px 0;
+}
+
 li {
   list-style-type: none;
 }
 
 .section {
   padding: 94px 0;
-  text-align: center;
 }
 
 .container {
@@ -75,6 +78,9 @@ li {
 .header-menu {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--title-text-color);
 }
 
 ul {
@@ -216,6 +222,7 @@ ul {
 .title-paragraf {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .team-position {
@@ -238,11 +245,10 @@ ul {
   margin-bottom: 9px;
 }
 .studio-logo-footer {
-  font-size: 26px;
   color: var(--white-color);
 }
 
-.webstudio-logo-footer {
+/* .webstudio-logo-footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -251,13 +257,18 @@ ul {
   margin-right: 0;
   color: var(--background-color);
   display: block;
-}
+} */
 
 .footer-contacts-link {
   text-decoration: none;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--background-color);
+}
+
 .mail-contakt-footer {
   display: block;
   margin-bottom: 9px;
@@ -299,7 +310,6 @@ ul {
 .projects-box {
   width: 370px;
   border: 1px solid var(--border-proects);
-  background-color: var(--white-color);
 }
 
 .webstudio-logo {
@@ -313,14 +323,11 @@ ul {
   display: block;
 }
 
+.footer .webstudio-logo {
+  margin-right: 0;
+}
 /* HW3  */
 
-.container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 15px;
-}
 .navi-container {
   display: flex;
   gap: 50px;
@@ -426,7 +433,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  margin: 4px;
+  margin-bottom: 4px;
 }
 
 .projects-paragraf {
@@ -438,5 +445,4 @@ ul {
 
 .title-paragraph-projects {
   padding: 20px 24px;
-  text-align: justify;
 }
