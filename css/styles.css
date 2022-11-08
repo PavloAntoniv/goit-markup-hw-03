@@ -52,6 +52,9 @@ p {
 
 header {
   padding: 24px 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--title-text-color);
 }
 
 li {
@@ -195,6 +198,7 @@ ul {
   font-size: 36px;
   color: var(--primary-text-color);
   margin-bottom: 50px;
+  text-align: center;
 }
 
 /* team section  */
